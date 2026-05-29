@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Centurion.Utilities" Version="1.0.0.17" />
+    <PackageReference Include="FluentFTP" Version="32.4.4" />
+    <PackageReference Include="GraphQL.Client" Version="3.1.0" />
+    <PackageReference Include="GraphQL.Client.Serializer.Newtonsoft" Version="3.1.0" />
+    <PackageReference Include="GraphQL.Primitives" Version="3.1.0" />
+    <PackageReference Include="IdentityModel" Version="4.3.0" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.5.1" />
+    <PackageReference Include="Telerik.UI.for.AspNet.Core" Version="2020.1.406" />
+  </ItemGroup>
+
+</Project>

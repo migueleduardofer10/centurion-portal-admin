@@ -1,0 +1,28 @@
+.app-loading {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1040;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.55;
+
+    h4 {
+        position: inherit;
+        margin-top: 4rem;
+        font-size: 1.2rem;
+        color: #fff;
+    }
+}
+
+.page-header {
+    margin: -1rem 0 1rem 0;
+}
+
+.breadcrumb {
+    padding: 0;
+}

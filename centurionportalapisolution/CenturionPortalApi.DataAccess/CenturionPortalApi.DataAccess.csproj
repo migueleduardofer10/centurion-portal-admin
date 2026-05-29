@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Telerik.UI.for.AspNet.Core" Version="2020.1.406" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CenturionPortalApi.DataBase\CenturionPortalApi.DataBase.csproj" />
+  </ItemGroup>
+
+</Project>
